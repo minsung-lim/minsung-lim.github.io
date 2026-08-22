@@ -1,0 +1,10 @@
+<nav class="contact-links" aria-label="Contact and profiles">
+  <ul role="list">
+    {% if cv.person.email %}
+    <li><a href="mailto:{{ cv.person.email }}">{{ cv.person.email }}</a></li>
+    {% endif %}
+    {% for link in cv.person.links %}
+    <li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

@@ -1,0 +1,7 @@
+{% assign cv = site.data.cv %}
+{% if cv.profile %}
+<section class="cv-section profile-section" id="profile" aria-labelledby="profile-title">
+  <h2 id="profile-title">Profile</h2>
+  <p class="profile-copy">{{ cv.profile }}</p>
+</section>
+{% endif %}

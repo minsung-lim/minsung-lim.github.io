@@ -1,0 +1,160 @@
+last_updated: August 2026
+
+person:
+  name: Minsung Lim
+  title: Senior Software Engineer
+  organization: Samsung Electronics
+  division: Big Data Center
+  email: mminsung731@gmail.com
+  image: /assets/images/minsung-lim.jpg
+  links:
+    - label: GitHub
+      url: https://github.com/minsung-lim
+      icon: github
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/minsung-lim-366103163/
+      icon: linkedin
+
+profile: >-
+  Senior software engineer at Samsung Electronics with experience across backend
+  services, Android accessibility, web applications, data platforms, and cloud
+  infrastructure. Currently developing fraud-detection services for Samsung
+  Account.
+
+experience:
+  - role: Samsung Account Backend Security
+    organization: Samsung Electronics · Big Data Center
+    period: Jan 2026 – Present
+    highlights:
+      - Develop fraud-detection services that assess risk in account access and sensitive account events.
+      - Implement risk-based controls and monitor outcomes to limit account abuse and false positives.
+  - role: Samsung Account Backend Core
+    organization: Samsung Electronics · Big Data Center
+    period: Feb 2020 – Dec 2025
+    highlights:
+      - Developed backend APIs for authentication and authorization.
+      - Served as a Technical Leader for three years, leading technical design, delivery, and service reliability.
+  - role: Advertising Platform DSP & DMP
+    organization: Samsung Electronics · MX
+    period: May 2018 – Jan 2020
+    highlights:
+      - Collaborated with AdGear and Moloco to design and evaluate DSP infrastructure on AWS and Google Cloud.
+      - Developed Spark-based data-warehouse ETL pipelines and machine-learning workflows for the DMP.
+  - role: Bixby Ops.
+    organization: Samsung Electronics · MX
+    period: Jan 2018 – Apr 2018
+    highlights:
+      - Automated Bixby Ops. infrastructure provisioning with Terraform to support continuous delivery.
+  - role: Samsung Cloud Portal Frontend
+    organization: Samsung Electronics · MX
+    period: Mar 2016 – Dec 2017
+    highlights:
+      - Developed Samsung Cloud web applications for Gallery, Drive, and Notes using AngularJS and React.
+  - role: Android Application Development
+    organization: Samsung Electronics · MX
+    period: Jan 2013 – Feb 2016
+    highlights:
+      - Developed the Help 1.0, 2.0, and 3.0 Android applications, along with features for the Call and Settings applications.
+      - Implemented accessibility features including Switch Access, Assistant Menu, and Interaction Control.
+  - role: Software Configuration Management and CI/CD
+    organization: Samsung Electronics · MX
+    period: Jul 2011 – Dec 2012
+    highlights:
+      - Built Jenkins-based CI/CD pipelines and software configuration-management tooling for OTA-capable releases.
+  - role: Software Engineer
+    organization: United Merchant Services, Inc. · Internship · Hackensack, New Jersey
+    period: Feb 2010 – Feb 2011
+    highlights:
+      - Developed a credit-card processing module in C#.
+      - Developed features for a point-of-sale application.
+
+selected_work:
+  - title: Agentic AIOps for Samsung Account
+    year: "2026"
+    description: >-
+      A production case study of multi-agent root-cause analysis for Samsung
+      Account operations.
+    source_label: AWS Technical Blog
+    source_url: https://aws.amazon.com/ko/blogs/tech/part2-agentic-aiops-samsung-account-service/
+
+speaking:
+  - title: Modernizing Samsung Account Core API Server with Refactoring
+    event: Samsung Software Developer Conference
+    year: "2022"
+    links:
+      - label: Official session
+        url: https://www.ssdc.kr/sessions/detail/36
+  - title: Refactoring Day
+    event: Samsung Developer Conference Korea
+    year: "2023"
+    links:
+      - label: Session notes
+        url: https://wichan7.github.io/outdoor/outdoor-sdc2023/
+      - label: Official event
+        url: https://research.samsung.com/news/Samsung-Electronics-Hosts-the-Samsung-Developer-Conference-Korea-2023-for-Software-Developers
+
+education:
+  - degree: Master's degree
+    department: Department of DMC Engineering
+    institution: Sungkyunkwan University
+    period: 2025 – 2026
+    source_url: https://enc.skku.edu/eng_sw/grad_dmc_intro.do
+  - degree: Bachelor's degree
+    department: Computer Engineering
+    institution: Inha University
+    period: 2005 – 2011
+    details: GPA 3.38/4.5 · 172 credits earned
+
+publications:
+  - title: "Where to Look First: Incident Memory for Alert-Time Triage of Microservice Applications"
+    authors:
+      - Minsung Lim
+      - Euiseong Seo
+    venue: IEEE International Symposium on Software Reliability Engineering (ISSRE)
+    year: "2026"
+    status: Forthcoming
+    visible: true
+
+credentials:
+  - name: S/W Programming Award
+    issuer: Samsung Electronics
+    date: Nov 2024
+    kind: Award
+  - name: S/W Best Reviewer
+    issuer: Samsung Electronics
+    date: Nov 2024
+    kind: Certification
+  - name: S/W Associate Architect
+    issuer: Samsung Electronics
+    date: Jun 2024
+    kind: Certification
+  - name: Google Cloud Professional Cloud Security Engineer
+    date: Jan 2024
+    kind: Certification
+  - name: S/W Programming Award
+    issuer: Samsung Electronics
+    date: Nov 2023
+    kind: Award
+  - name: Google Cloud Professional Cloud Architect
+    date: Jun 2023
+    kind: Certification
+  - name: Data Science Level 2
+    issuer: Samsung Electronics
+    date: Jun 2023
+    kind: Certification
+  - name: Engineer Information Processing
+    issuer: Human Resources Development Service of Korea
+    date: Aug 2018
+    kind: Certification
+  - name: Programming Contest — Second Place (Team)
+    issuer: Inha University
+    date: Sep 2009
+    kind: Award
+  - name: Digital Storytelling with Pierre Lévy Contest — Grand Prize (Team)
+    issuer: Inha University
+    date: Jul 2009
+    kind: Award
+
+languages:
+  - name: English
+    level: OPIc IH (2023) · TOEIC 900 (2011)

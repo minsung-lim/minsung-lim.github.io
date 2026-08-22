@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  {% assign cv = site.data.cv %}
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+    <meta property="og:image" content="{{ site.url }}{{ cv.person.image | relative_url }}">
+    <meta property="profile:first_name" content="Minsung">
+    <meta property="profile:last_name" content="Lim">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23102a43'/%3E%3Cpath d='M17 45V19h7l8 13 8-13h7v26h-7V30l-8 13-8-13v15z' fill='%23f7f4ed'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": {{ cv.person.name | jsonify }},
+        "url": {{ site.url | append: '/' | jsonify }},
+        "image": "{{ site.url }}{{ cv.person.image | relative_url }}",
+        "email": {{ cv.person.email | prepend: 'mailto:' | jsonify }},
+        "jobTitle": {{ cv.person.title | jsonify }},
+        "worksFor": {
+          "@type": "Organization",
+          "name": {{ cv.person.organization | jsonify }}
+        },
+        "sameAs": [
+          {% for link in cv.person.links %}{{ link.url | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="cv-page">
+      <header class="site-header" aria-labelledby="person-name">
+        <img
+          class="portrait"
+          src="{{ cv.person.image | relative_url }}"
+          width="500"
+          height="611"
+          alt="Portrait of Minsung Lim"
+        >
+        <div class="identity-header">
+          <h1 id="person-name">{{ cv.person.name }}</h1>
+          <p class="professional-title">{{ cv.person.title }}</p>
+          <p class="organization">{{ cv.person.organization }} · {{ cv.person.division }}</p>
+          {% include contact-list.html %}
+        </div>
+      </header>
+      <main class="cv-main" id="main-content" tabindex="-1">
+        {{ content }}
+        <footer class="site-footer">
+          <p>Last updated {{ cv.last_updated }}.</p>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

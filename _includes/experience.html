@@ -1,0 +1,22 @@
+{% assign cv = site.data.cv %}
+{% if cv.experience.size > 0 %}
+<section class="cv-section" id="experience" aria-labelledby="experience-title">
+  <h2 id="experience-title">Experience</h2>
+  <div class="timeline">
+    {% for item in cv.experience %}
+    <article class="timeline-entry">
+      <p class="entry-meta"><span class="period">{{ item.period }}</span></p>
+      <div class="timeline-entry__body">
+        <h3>{{ item.role }}</h3>
+        <p class="entry-organization">{{ item.organization }}</p>
+        {% if item.highlights.size > 0 %}
+        <ul class="entry-highlights">
+          {% for highlight in item.highlights %}<li>{{ highlight }}</li>{% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

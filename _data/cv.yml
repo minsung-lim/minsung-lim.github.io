@@ -1,0 +1,461 @@
+last_updated: August 2026
+
+person:
+  name: Minsung Lim
+  title: Senior Software Engineer
+  organization: Samsung Electronics
+  division: Big Data Center
+  contact_image: /assets/images/contact-email.svg
+  image: /assets/images/minsung-lim.jpg
+  links:
+    - label: GitHub
+      url: https://github.com/minsung-lim
+      icon: github
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/minsung-lim-366103163/
+      icon: linkedin
+
+profile: >-
+  Senior software engineer with 15 years at Samsung Electronics, including
+  more than six years in Samsung Account backend roles and three years as a
+  Technical Leader. Experience spans Android accessibility, cloud web
+  applications, data platforms, and cloud infrastructure. Since January 2026,
+  works on fraud-detection services for Samsung Account.
+
+experience:
+  - role: Samsung Account Backend Security
+    organization: Samsung Electronics · Big Data Center
+    period: Jan 2026 – Present
+    highlights:
+      - Develop fraud-detection services for account access and sensitive account events.
+      - Implement risk-based controls and monitoring for account abuse and false positives.
+  - role: Samsung Account Backend Core
+    organization: Samsung Electronics · Big Data Center
+    period: Feb 2020 – Dec 2025
+    highlights:
+      - Developed authentication and authorization APIs for Samsung Account.
+      - Served as a Technical Leader for three years, leading technical design, delivery, and service reliability.
+  - role: Advertising Platform DSP & DMP
+    organization: Samsung Electronics · MX
+    period: May 2018 – Jan 2020
+    highlights:
+      - Collaborated with two DSP partners, AdGear and Moloco, to design and evaluate DSP infrastructure on AWS and Google Cloud.
+      - Developed Spark-based data-warehouse ETL pipelines and machine-learning workflows for the DMP.
+  - role: Bixby Ops.
+    organization: Samsung Electronics · MX
+    period: Jan 2018 – Apr 2018
+    highlights:
+      - Automated Bixby Ops. infrastructure provisioning with Terraform to support continuous delivery.
+  - role: Samsung Cloud Portal Frontend
+    organization: Samsung Electronics · MX
+    period: Mar 2016 – Dec 2017
+    highlights:
+      - "Developed web applications for three Samsung Cloud services: Gallery, Drive, and Notes, using AngularJS and React."
+  - role: Android Application Development
+    organization: Samsung Electronics · MX
+    period: Jan 2013 – Feb 2016
+    highlights:
+      - Delivered three Help releases (1.0–3.0), along with features for the Call and Settings applications.
+      - Implemented accessibility features including Switch Access, Assistant Menu, and Interaction Control.
+  - role: Software Configuration Management and CI/CD
+    organization: Samsung Electronics · MX
+    period: Jul 2011 – Dec 2012
+    highlights:
+      - Built Jenkins-based CI/CD pipelines and software configuration-management tooling for OTA-capable releases.
+  - role: Software Engineer
+    organization: United Merchant Services, Inc. · Internship · Hackensack, New Jersey
+    period: Feb 2010 – Feb 2011
+    highlights:
+      - Developed a credit-card processing module in C#.
+      - Developed features for a point-of-sale application.
+
+selected_work:
+  - title: Agentic AIOps for Samsung Account
+    year: "2026"
+    description: >-
+      Case study of a multi-agent system for automated root-cause analysis in
+      Samsung Account operations.
+    source_label: AWS Technical Blog
+    source_url: https://aws.amazon.com/ko/blogs/tech/part2-agentic-aiops-samsung-account-service/
+  - title: Refactoring Day
+    year: "2023"
+    description: >-
+      Article on a team-wide refactoring initiative to address technical debt
+      in Samsung Account.
+    source_label: Samsung Tech Blog
+    source_url: https://techblog.samsung.com/blog/article/28
+
+speaking:
+  - title: Modernizing Samsung Account Core API Server with Refactoring
+    event: Samsung Software Developer Conference
+    year: "2022"
+    links:
+      - label: Official session
+        url: https://www.ssdc.kr/sessions/detail/36
+  - title: Refactoring Day
+    event: Samsung Developer Conference Korea
+    year: "2023"
+    links:
+      - label: Session notes
+        url: https://wichan7.github.io/outdoor/outdoor-sdc2023/
+      - label: Official event
+        url: https://research.samsung.com/news/Samsung-Electronics-Hosts-the-Samsung-Developer-Conference-Korea-2023-for-Software-Developers
+
+education:
+  - degree: Master's degree
+    department: Department of DMC Engineering
+    institution: Sungkyunkwan University
+    period: 2025 – 2026
+    source_url: https://enc.skku.edu/eng_sw/grad_dmc_intro.do
+  - degree: Bachelor's degree
+    department: Computer Engineering
+    institution: Inha University
+    period: 2005 – 2011
+    details: 172 credits completed
+
+publications:
+  - title: "Where to Look First: Incident Memory for Alert-Time Triage of Microservice Applications"
+    authors:
+      - Minsung Lim
+      - Euiseong Seo
+    venue: IEEE International Symposium on Software Reliability Engineering (ISSRE)
+    year: "2026"
+    track: ""
+    status: Forthcoming
+    visible: true
+
+credentials:
+  - name: S/W Programming Award — Individual
+    issuer: Samsung Electronics
+    date: Nov 2024
+    kind: Award
+  - name: S/W Programming Award — Team
+    issuer: Samsung Electronics
+    date: Nov 2024
+    kind: Award
+  - name: S/W Best Reviewer
+    issuer: Samsung Electronics
+    date: Nov 2024
+    kind: Certification
+  - name: S/W Associate Architect
+    issuer: Samsung Electronics
+    date: Jun 2024
+    kind: Certification
+  - name: Professional Cloud Security Engineer
+    issuer: Google Cloud
+    date: Jan 2024
+    kind: Certification
+  - name: S/W Programming Award — Individual
+    issuer: Samsung Electronics
+    date: Nov 2023
+    kind: Award
+  - name: Professional Cloud Architect
+    issuer: Google Cloud
+    date: Jun 2023
+    kind: Certification
+  - name: Data Science Level 2
+    issuer: Samsung Electronics
+    date: Jun 2023
+    kind: Certification
+  - name: Engineer Information Processing
+    issuer: Human Resources Development Service of Korea
+    date: Aug 2018
+    kind: Certification
+  - name: Programming Contest — Second Place (Team)
+    issuer: Inha University
+    date: Sep 2009
+    kind: Award
+  - name: Digital Storytelling with Pierre Lévy Contest — Grand Prize (Team)
+    issuer: Inha University
+    date: Jul 2009
+    kind: Award
+
+professional_development:
+  summary:
+    name: Coursera Coursework
+    provider: Coursera
+    date: 2019–2024
+    page_url: /professional-development/
+    course_count: 39
+    focus_areas:
+      - name: Cloud Architecture & Infrastructure
+        count: 13
+      - name: Machine Learning & AI
+        count: 9
+      - name: Data Engineering & Analytics
+        count: 8
+      - name: DevOps & Delivery
+        count: 5
+      - name: Application Development & Security
+        count: 4
+  items:
+    - name: Architecting with Google Compute Engine
+      issuer: Google Cloud
+      date: Sep 2024
+      kind: Specialization
+      area: Cloud Architecture & Infrastructure
+    - name: "DevOps on AWS: Code, Build, and Test"
+      issuer: Amazon Web Services
+      date: Jan 2023
+      kind: Course
+      area: DevOps & Delivery
+    - name: "DevOps on AWS: Release and Deploy"
+      issuer: Amazon Web Services
+      date: Jan 2023
+      kind: Course
+      area: DevOps & Delivery
+    - name: DevOps on AWS
+      issuer: Amazon Web Services
+      date: Jan 2023
+      kind: Specialization
+      area: DevOps & Delivery
+    - name: Building Data Lakes on AWS
+      issuer: Amazon Web Services
+      date: Jan 2023
+      kind: Course
+      area: Data Engineering & Analytics
+    - name: "DevOps on AWS: Operate and Monitor"
+      issuer: Amazon Web Services
+      date: Jan 2023
+      kind: Course
+      area: DevOps & Delivery
+    - name: "Exam Prep: AWS Certified Solutions Architect - Associate"
+      issuer: Amazon Web Services
+      date: Jan 2023
+      kind: Course
+      area: Cloud Architecture & Infrastructure
+    - name: AWS Cloud Solutions Architect
+      issuer: Amazon Web Services
+      date: Jan 2023
+      kind: Professional Certificate
+      area: Cloud Architecture & Infrastructure
+    - name: Architecting Solutions on AWS
+      issuer: Amazon Web Services
+      date: Jan 2023
+      kind: Course
+      area: Cloud Architecture & Infrastructure
+    - name: AWS Cloud Technical Essentials
+      issuer: Amazon Web Services
+      date: Jan 2023
+      kind: Course
+      area: Cloud Architecture & Infrastructure
+    - name: "Architecting with Google Kubernetes Engine: Workloads"
+      issuer: Google Cloud
+      date: Aug 2019
+      kind: Course
+      area: Cloud Architecture & Infrastructure
+    - name: "Architecting with Google Kubernetes Engine: Foundations"
+      issuer: Google Cloud
+      date: Aug 2019
+      kind: Course
+      area: Cloud Architecture & Infrastructure
+    - name: Visual Analytics with Tableau
+      issuer: University of California, Davis
+      date: Jul 2019
+      kind: Course
+      area: Data Engineering & Analytics
+    - name: Fundamentals of Visualization with Tableau
+      issuer: University of California, Davis
+      date: Jul 2019
+      kind: Course
+      area: Data Engineering & Analytics
+    - name: Convolutional Neural Networks in TensorFlow
+      issuer: DeepLearning.AI
+      date: Jul 2019
+      kind: Course
+      area: Machine Learning & AI
+    - name: Natural Language Processing in TensorFlow
+      issuer: DeepLearning.AI
+      date: Jul 2019
+      kind: Course
+      area: Machine Learning & AI
+    - name: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+      issuer: DeepLearning.AI
+      date: Jul 2019
+      kind: Course
+      area: Machine Learning & AI
+    - name: "Essential Google Cloud Infrastructure: Foundation"
+      issuer: Google Cloud
+      date: Jul 2019
+      kind: Course
+      area: Cloud Architecture & Infrastructure
+    - name: "Reliable Google Cloud Infrastructure: Design and Process"
+      issuer: Google Cloud
+      date: Jul 2019
+      kind: Course
+      area: Cloud Architecture & Infrastructure
+    - name: "Elastic Cloud Infrastructure: Containers and Services"
+      issuer: Google Cloud
+      date: Jul 2019
+      kind: Course
+      area: Cloud Architecture & Infrastructure
+    - name: "Elastic Google Cloud Infrastructure: Scaling and Automation"
+      issuer: Google Cloud
+      date: Jul 2019
+      kind: Course
+      area: Cloud Architecture & Infrastructure
+    - name: "Essential Google Cloud Infrastructure: Core Services"
+      issuer: Google Cloud
+      date: Jul 2019
+      kind: Course
+      area: Cloud Architecture & Infrastructure
+    - name: Getting Started With Application Development
+      issuer: Google Cloud
+      date: Jul 2019
+      kind: Course
+      area: Application Development & Security
+    - name: App Deployment, Debugging, and Performance
+      issuer: Google Cloud
+      date: Jul 2019
+      kind: Course
+      area: DevOps & Delivery
+    - name: Securing and Integrating Components of your Application
+      issuer: Google Cloud
+      date: Jul 2019
+      kind: Course
+      area: Application Development & Security
+    - name: Serverless Machine Learning with TensorFlow on Google Cloud Platform
+      issuer: Google Cloud
+      date: Jul 2019
+      kind: Course
+      area: Machine Learning & AI
+    - name: Building Resilient Streaming Systems on Google Cloud Platform
+      issuer: Google Cloud
+      date: Jul 2019
+      kind: Course
+      area: Data Engineering & Analytics
+    - name: Machine Learning in the Enterprise
+      issuer: Google Cloud
+      date: Jun 2019
+      kind: Course
+      area: Machine Learning & AI
+    - name: Mitigating Security Vulnerabilities on Google Cloud
+      issuer: Google Cloud
+      date: Jun 2019
+      kind: Course
+      area: Application Development & Security
+    - name: Leveraging Unstructured Data with Cloud Dataproc on Google Cloud Platform
+      issuer: Google Cloud
+      date: Jun 2019
+      kind: Course
+      area: Data Engineering & Analytics
+    - name: Build, Train and Deploy ML Models with Keras on Google Cloud
+      issuer: Google Cloud
+      date: Jun 2019
+      kind: Course
+      area: Machine Learning & AI
+    - name: How Google does Machine Learning
+      issuer: Google Cloud
+      date: Jun 2019
+      kind: Course
+      area: Machine Learning & AI
+    - name: Managing Security in Google Cloud
+      issuer: Google Cloud
+      date: Jun 2019
+      kind: Course
+      area: Application Development & Security
+    - name: Serverless Data Analysis with Google BigQuery and Cloud Dataflow
+      issuer: Google Cloud
+      date: Jun 2019
+      kind: Course
+      area: Data Engineering & Analytics
+    - name: Launching into Machine Learning
+      issuer: Google Cloud
+      date: Jun 2019
+      kind: Course
+      area: Machine Learning & AI
+    - name: "Google Cloud Fundamentals: Core Infrastructure"
+      issuer: Google Cloud
+      date: Jun 2019
+      kind: Course
+      area: Cloud Architecture & Infrastructure
+    - name: What is Data Science?
+      issuer: IBM
+      date: Jun 2019
+      kind: Course
+      area: Data Engineering & Analytics
+    - name: Feature Engineering
+      issuer: Google Cloud
+      date: Jun 2019
+      kind: Course
+      area: Machine Learning & AI
+    - name: Google Cloud Big Data and Machine Learning Fundamentals
+      issuer: Google Cloud
+      date: Jun 2019
+      kind: Course
+      area: Data Engineering & Analytics
+
+additional_qualifications:
+  summary:
+    name: Qualifications and affiliations
+    details: Master Scuba Diver, Ski Instructor Level 1, practical licences, and Mensa Korea membership.
+    page_url: /qualifications/
+  items:
+    - name: Mensa Korea — Member
+      issuer: Mensa Korea
+      date: May 2015
+      kind: Affiliation
+    - name: Master Scuba Diver
+      issuer: PADI
+      date: Jul 2019
+      kind: Qualification
+    - name: Emergency First Response
+      issuer: Emergency First Response
+      date: Jun 2019
+      kind: Qualification
+    - name: Construction Machinery Operator Licence — Forklifts Under 3 Tons
+      issuer: Suwon City
+      date: Feb 2019
+      kind: Qualification
+    - name: Excavator Driving Technician
+      issuer: Human Resources Development Service of Korea
+      date: Jul 2018
+      kind: Qualification
+    - name: Home Fashion, Level 2 (Sewing Instructor)
+      issuer: Pulib Culture Association
+      date: May 2017
+      kind: Qualification
+    - name: Ski Instructor (Teaching I)
+      issuer: Korea Ski Instructors Association
+      date: Mar 2017
+      kind: Qualification
+    - name: Bus Driver Qualification
+      issuer: Korea Transportation Safety Authority
+      date: Apr 2016
+      kind: Qualification
+    - name: Cargo Transportation Worker Qualification
+      issuer: Korea Transportation Safety Authority
+      date: Apr 2016
+      kind: Qualification
+    - name: Ski Instructor Level 1
+      issuer: Korea Ski Instructors Association
+      date: Feb 2016
+      kind: Qualification
+
+earlier_technical_credentials:
+  items:
+    - name: Microsoft Office Specialist Master
+      issuer: Microsoft
+      date: Feb 2006
+      kind: Certification
+      details: Microsoft Office 2000 Master
+    - name: Microsoft Certified Application Developer (MCAD)
+      issuer: Microsoft
+      date: Dec 2005
+      kind: Certification
+    - name: Developing XML Web Services and Server Components with Microsoft Visual C# .NET and the Microsoft .NET Framework (MCP)
+      issuer: Microsoft
+      date: Dec 2005
+      kind: Certification
+    - name: Developing and Implementing Web Applications with Microsoft Visual C# .NET and Microsoft Visual Studio .NET (MCP)
+      issuer: Microsoft
+      date: Nov 2005
+      kind: Certification
+    - name: Designing and Implementing Databases with Microsoft SQL Server 2000 Enterprise Edition (MCP)
+      issuer: Microsoft
+      date: Nov 2005
+      kind: Certification
+
+languages:
+  - name: English
+    level: OPIc IH (2023) · TOEIC 900 (2011)

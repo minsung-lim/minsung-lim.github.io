@@ -1,0 +1,10 @@
+<nav class="contact-links" aria-label="Contact and profiles">
+  <ul role="list">
+    {% if cv.person.contact_image %}
+    <li><img class="contact-email-image" src="{{ cv.person.contact_image | relative_url }}" width="155" height="16" alt="Email address"></li>
+    {% endif %}
+    {% for link in cv.person.links %}
+    <li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

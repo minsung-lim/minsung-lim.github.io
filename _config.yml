@@ -1,0 +1,16 @@
+title: Minsung Lim — Senior Software Engineer
+description: CV of Minsung Lim, Senior Software Engineer at Samsung Electronics.
+url: https://minsung-lim.github.io
+baseurl: ""
+lang: en
+permalink: pretty
+sass:
+  sass_dir: _sass
+  style: compressed
+exclude:
+  - docs
+  - test
+  - requirements-dev.txt
+  - README.md
+  - Gemfile
+  - Gemfile.lock
